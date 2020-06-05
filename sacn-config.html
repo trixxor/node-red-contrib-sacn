@@ -3,7 +3,7 @@
         category: 'config',
         defaults: {
             hostOrUniverse: {value:"localhost"},
-            port: {value:5568,required:true,validate:RED.validators.number()},
+            port: {value:5568,required:true},
         },
         label: function() {
             return this.hostOrUniverse+":"+this.port;
